@@ -46,3 +46,6 @@ Probably the most tedious yet the part that drove me insane the first time. You 
 	- You can install Skyve in any destination you want to. However, I must say that I am not sure if this method works for the Skyve Service. So unless you need it, I would disable it.
 
 Now you should be able to run Skyve without any issues! Do so with the command ```$ WINEPREFIX=/home/yourusername/.local/share/wineprefixes/Skyve wine Skyve.exe``` inside the folder you have ``Skyve.exe`` in.
+
+# Current Issues:
+- Scrolling too fast on the PDX Mods tab can cause the app to crash. I couldn't figure out what causes it, so currently the only known workaround is to scroll relatively slowly.
