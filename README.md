@@ -22,7 +22,8 @@ Without doing this, you won't be able to launch Skyve at all.
 3. While in the menu, click on **install a Windows component or DLL**. Another menu will pop out, in which you want to check the package ``dotnet48`` and click OK, it will install now.
 	- Winetricks will now install dotNET 4.8 in your wine prefix. Be reminded that it will also install all of its dependencies, so you will have to wait and install every dependency that pops out until winetricks shows you the menu you were before again.
 	- If you encounter any errors or warnings, ignore them.
-4. Close ``winetricks``.
+4. Click "cancel" once to enter the previous menu. In it click on **install fonts** and install ``allfonts``. (Note: if you get an error about SHA512 mismatch, it is safe to cancel the operation as all necessary fonts will be installed by then.)
+5. Close ``winetricks``.
 
 The default location of the prefix will now be in your home folder, more specifically under ``~/.local/share/wineprefixes/``.
 
@@ -48,4 +49,4 @@ Probably the most tedious yet the part that drove me insane the first time. You 
 Now you should be able to run Skyve without any issues! Do so with the command ```$ WINEPREFIX=/home/yourusername/.local/share/wineprefixes/Skyve wine Skyve.exe``` inside the folder you have ``Skyve.exe`` in.
 
 # Current Issues:
-- Scrolling too fast on the PDX Mods tab can cause the app to crash. I couldn't figure out what causes it, so currently the only known workaround is to scroll relatively slowly.
+- Scrolling too fast on the PDX Mods tab can cause the app to crash. This issue doesn't seem to appear if you have ``allfonts`` installed.
