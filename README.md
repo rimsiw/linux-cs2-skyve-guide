@@ -1,5 +1,5 @@
 # Making Skyve for C:2 II work on Linux properly - a guide
-A bit of an intro to this one. There are some guides on the internet which explain how to do it, but I haven't found any of them really working without breaking the game in itself, so after hours of trying to fix my own Skyve install I decided to make this guide, which might be more complicated than normal, but you have guarantee that your game installation won't behave any different than before.
+A bit of an intro to this one. There are some guides on the internet which explain how to do it, but I haven't found any of them really working without breaking the game in itself, so after hours of trying to fix my own Skyve install I decided to make this guide. It might be more complicated than other guides, but you have the guarantee that your game installation won't behave any differently than before.
 
 ## Step 1: Important things to point out
 - This guide will focus on Cities: Skylines II installed via **Steam** on default file location, if you have different install, please adjust the steps to your case.
