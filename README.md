@@ -48,5 +48,6 @@ Probably the most tedious yet the part that drove me insane the first time. You 
 
 Now you should be able to run Skyve without any issues! Do so with the command ```$ WINEPREFIX=/home/yourusername/.local/share/wineprefixes/Skyve wine Skyve.exe``` inside the folder you have ``Skyve.exe`` in.
 
-# Current Issues:
-- Scrolling too fast on the PDX Mods tab can cause the app to crash. This issue doesn't seem to appear if you have ``allfonts`` installed.
+# Troubleshooting
+## Skyve crashes while scrolling too fast on the PDX Mods tab.
+- Make sure you have the ``allfonts`` package under winetricks installed.
