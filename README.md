@@ -31,13 +31,14 @@ The default location of the prefix will now be in your home folder, more specifi
 Probably the most tedious yet the part that drove me insane the first time. You will have to create a lot of symlinks. If you aren't aware, symlinks are basically an advanced version of Windows' links or shortcuts.
 
 1. Create a symlink to the **steamuser** folder of your C:S II prefix. By default it would be:
-	-  ```$ ln -s ~/.local/share/Steam/steamapps/compatdata/949230/pfx/drive_c/users/steamuser ~/~/.local/share/wineprefixes/Skyve/drive_c/users/```
+	-  ```$ ln -s ~/.local/share/Steam/steamapps/compatdata/949230/pfx/drive_c/users/steamuser ~/.local/share/wineprefixes/Skyve/drive_c/users/```
 2. Create a symlink to the **AppData** folder of your C:S II prefix, this time for your user "account" under Skyve prefix.
 	- Run ```$ mkdir -p ~/.local/share/wineprefixes/Skyve/drive_c/users/yourusername/AppData/LocalLow/Colossal\ Order/``` to make directories necessary. 
-	- ```$ ln -s ~/.local/share/Steam/steamapps/compatdata/949230/pfx/drive_c/users/yourusername/AppData/LocalLow/Colossal\ Order/Cities\ Skylines\ II/```
+	- ```$ ln -s ~/.local/share/Steam/steamapps/compatdata/949230/pfx/drive_c/users/steamuser/AppData/LocalLow/Colossal\ Order/Cities\ Skylines\ II/ ~/.local/share/wineprefixes/Skyve/drive_c/users/yourusername/AppData/LocalLow/Colossal\ Order/```
 	- In both commands, please make sure to change ``yourusername`` to your actual username.
 3. Create a symlink to the game installation folder.
-	- ```$ ln -s ~/.local/share/wineprefixes/Skyve/drive_c/Program\ Files\ (x86)/Steam/steamapps/ ~/.local/share/Steam/steamapps/common/Cities\ Skylines\ II/```
+	- ```$ mkdir -p ~/.local/share/wineprefixes/Skyve/drive_c/Program\ Files\ \(x86\)/Steam/steamapps/common/```
+	- ```$ ln -s ~/.local/share/Steam/steamapps/common/Cities\ Skylines\ II/ ~/.local/share/wineprefixes/Skyve/drive_c/Program\ Files\ \(x86\)/Steam/steamapps/common/ ```
 
 ## Step 5: Run "Skyve Setup.exe"
 1. If your game is open, please close it now.
