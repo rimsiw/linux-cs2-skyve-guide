@@ -38,7 +38,7 @@ Probably the most tedious yet the part that drove me insane the first time. You 
 	- In both commands, please make sure to change ``yourusername`` to your actual username.
 3. Create a symlink to the game installation folder.
 	- ```$ mkdir -p ~/.local/share/wineprefixes/Skyve/drive_c/Program\ Files\ \(x86\)/Steam/steamapps/common/```
-	- ```$ ln -s ~/.local/share/Steam/steamapps/common/Cities\ Skylines\ II/ ~/.local/share/wineprefixes/Skyve/drive_c/Program\ Files\ \(x86\)/Steam/steamapps/common/ ```
+	- ```$ ln -s ~/.local/share/Steam/steamapps/common/Cities\ Skylines\ II/ ~/.local/share/wineprefixes/Skyve/drive_c/"Program Files (x86)"/Steam/steamapps/common/ ```
 
 ## Step 5: Run "Skyve Setup.exe"
 1. If your game is open, please close it now.
